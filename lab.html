@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab</title>
+</head>
+<body>
+	<p id="a"></p>
+
+	<script>
+	var string = prompt("input data");
+	var char = prompt("input a char to search");
+
+	var one = string.indexOf(char);
+	var two = string.lastIndexOf(char);
+	var thr =string.indexOf(char, 3);
+
+	document.getElementById("a").innerHTML = one + "<br>" + two + "<br>" + thr;
+	
+	</script>
+</body>
+</html>
